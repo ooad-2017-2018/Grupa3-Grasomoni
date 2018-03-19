@@ -5,7 +5,7 @@
 3.	Ćorović Dalila
 
 ## Opis teme
-Projekat na temu **Sarajevo eprevoz net** baziran je na praćenju gradskog prevoza putem GPS-a. Svrha sistema je omogućiti korisniku uvid u kretanje izvjesnih prevoznih sredstava. S tim u vezi, moguće je locirati poziciju po volji odabranog transportnog sistema, te procjenu kako prostorne tako i vremenske udaljenosti prevoza od tekućeg položaja korisnika. 
+Projekat na temu # **Sarajevo eprevoz net** baziran je na praćenju gradskog prevoza putem GPS-a. Svrha sistema je omogućiti korisniku uvid u kretanje izvjesnih prevoznih sredstava. S tim u vezi, moguće je locirati poziciju po volji odabranog transportnog sistema, te procjenu kako prostorne tako i vremenske udaljenosti prevoza od tekućeg položaja korisnika. 
 Korisniku ovog sistema pruža se mogućnost unosa svoje lokacije, ličnih podataka i stanice do koje želi da ide. Na taj način na osnovu broja pređenih stanica vršio bi se proračun karte koju je korisnik dužan isplatiti. 
 Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna od tih su:
 - [x] Prijava potencijalnih kvarova na sistemu 
