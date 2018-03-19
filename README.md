@@ -12,7 +12,7 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 - [x] Pospiješen sistem naplate (time je postignuto da se ne vrednuje podjednako karta korisnika koji ide od prve do zadnje stanice kao korisnika koji ima značajno manji pređeni put)
 - [x] Smanjenje gužve u prevozu. Ovo se postiže na način praćenja broja registrovanih tokom dana. Statističkim pregledom može se utvrditi period kada imamo prijavu kritičnog broja korisnika, te u tim satima povećati broj transportnih sredstava. 
 - [x] Pregled prihoda I potrošnje
-- [x] Popust na učestale korisnike, studente, penzionere, djecu i na rodbinu kreatora tima (i na članove SDA)
+- [x] Popust na učestale korisnike, studente, penzionere, djecu i na rodbinu kreatora sistema (i na članove SDA)
 - [x] Kvalitetniji sistem je direktno proporcionalan povećanju broja korisnika
 
 ## Procesi 
