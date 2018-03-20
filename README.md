@@ -24,9 +24,10 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 -   _Provjera statistike od strane administratora_
 
 ## Funkcionalnosti
--	Registracija korisnika ili prijava ukoliko prethodno imamo kreiran račun
--	Prikaz trenutne pozicije korisnika 
+-	Registracija korisnika
+-   Prijava korisnika koji je prethodno registrovan na sistem
 -	Odabir željenog prevoznog sredstva 
+-   Unos pozicije korisnika
 -	Odabir lokacije na koju korisnik želi da dođe
 -	Prikaz najbližeg prevoznog sredstva i vremenski period za koji bi vozilo trebalo da dođe
 -	Proračun karte 
