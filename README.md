@@ -33,10 +33,10 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 -	Mogućnost elektronske naplate
 
 ## Akteri
--	Neregistrovani korisnik - osoba koja nije stalni korisnik sistema. Ima ambiciju pregleda raspoloživih prevoznih sredstava ili cijena koje se kreću na račun udaljenosti početne i krajnje lokacije.
-- Registrovani korisnik - stalni korisnik aplikacije.
--	Administrator:
-  - uvid u sistem
-  - pristup korisničkim podacima
-  - pristup registrovanim vozilima
-  - odobravanje zahtjeva brisanja korisničkih naloga
+1.	Neregistrovani korisnik - osoba koja nije stalni korisnik sistema. Ima ambiciju pregleda raspoloživih prevoznih sredstava ili cijena koje se kreću na račun udaljenosti početne i krajnje lokacije.
+2.  Registrovani korisnik - stalni korisnik aplikacije.
+3.	Administrator: 
+    - uvid u sistem
+    - pristup korisničkim podacima
+    - pristup registrovanim vozilima
+    - odobravanje zahtjeva brisanja korisničkih naloga
