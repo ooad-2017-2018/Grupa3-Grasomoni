@@ -36,7 +36,7 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 -	Neregistrovani korisnik - osoba koja nije stalni korisnik sistema. Ima ambiciju pregleda raspoloživih prevoznih sredstava ili cijena koje se kreću na račun udaljenosti početne i krajnje lokacije.
 - Registrovani korisnik - stalni korisnik aplikacije.
 -	Administrator:
- - uvid u sistem
- - pristup korisničkim podacima
- - pristup registrovanim vozilima
- - odobravanje zahtjeva brisanja korisničkih naloga
+  - uvid u sistem
+  - pristup korisničkim podacima
+  - pristup registrovanim vozilima
+  - odobravanje zahtjeva brisanja korisničkih naloga
