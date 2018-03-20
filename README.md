@@ -16,8 +16,8 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 - [x] Kvalitetniji sistem je direktno proporcionalan povećanju broja korisnika
 
 ## Procesi 
--	Proces registracije korisnika: prilikom pokretanja sistema korisnik najprije unosi lične podatke
--	Prijava: u slučaju da korisnik ima prethodno kreiran račun, potreban je unos pristupnih podataka računa
+-	Proces registracije korisnika: prilikom pokretanja sistema korisnik unosi lične podatke. Lični podaci podrazumijevaju: ime, prezime, JMBG, adresa stanovanja, kontakt telefon, email i lozinka.
+-	Prijava: Registrovani korisnik pošto naredni put pristupi interfejsu za prijavu, unosi svoje ime, prezime, lozinku, način plaćanja
 -	Unos trenutne lokacije korisnika I željene stanice do koje korisnik želi doći, te odabir prevoznog sredstva
 -	Proračun karte: na osnovu udaljenosti između početne I krajnje lokacije, vrši se izračunavanje cijene karte 
 -	Nakon procjene karte, korisnik bira da li će potvrditi naplatu ili ne
@@ -33,5 +33,10 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 -	Mogućnost elektronske naplate
 
 ## Akteri
--	Korisnik 
--	Administrator
+-	Neregistrovani korisnik - osoba koja nije stalni korisnik sistema. Ima ambiciju pregleda raspoloživih prevoznih sredstava ili cijena koje se kreću na račun udaljenosti početne i krajnje lokacije.
+- Registrovani korisnik - stalni korisnik aplikacije.
+-	Administrator:
+ - uvid u sistem
+ - pristup korisničkim podacima
+ - pristup registrovanim vozilima
+ - odobravanje zahtjeva brisanja korisničkih naloga
