@@ -16,12 +16,12 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 - [x] Kvalitetniji sistem je direktno proporcionalan povećanju broja korisnika
 
 ## Procesi 
--	Proces registracije korisnika: prilikom pokretanja sistema korisnik najprije unosi lične podatke. 
--	Prijava: u slučaju da korisnik ima prethodno kreiran račun, potreban je unos pristupnih podataka računa.
--	Unos trenutne lokacije korisnika I željene stanice do koje korisnik želi doći, te odabir prevoznog sredstva.
--	Proračun karte: na osnovu udaljenosti između početne I krajnje lokacije, vrši se izračunavanje cijene karte. 
--	Nakon procjene karte, korisnik bira da li će potvrditi naplatu ili ne.
-- Provjera statistike od strane administratora.
+-	Proces registracije korisnika: prilikom pokretanja sistema korisnik najprije unosi lične podatke
+-	Prijava: u slučaju da korisnik ima prethodno kreiran račun, potreban je unos pristupnih podataka računa
+-	Unos trenutne lokacije korisnika I željene stanice do koje korisnik želi doći, te odabir prevoznog sredstva
+-	Proračun karte: na osnovu udaljenosti između početne I krajnje lokacije, vrši se izračunavanje cijene karte 
+-	Nakon procjene karte, korisnik bira da li će potvrditi naplatu ili ne
+- Provjera statistike od strane administratora
 
 ## Funkcionalnosti
 -	Registracija korisnika ili prijava ukoliko prethodno imamo kreiran račun
