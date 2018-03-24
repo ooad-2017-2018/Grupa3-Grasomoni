@@ -4,7 +4,7 @@
 2.	Divjan Belmin 
 3.	Ćorović Dalila
 
-![Uploading Logo.jpg…]()
+
 
 ## Opis teme
 Projekat na temu **Sarajevo eprevoz net** baziran je na praćenju gradskog prevoza putem GPS-a. Svrha sistema je omogućiti korisniku uvid u kretanje izvjesnih prevoznih sredstava. S tim u vezi, moguće je locirati poziciju po volji odabranog transportnog sistema, te procjenu kako prostorne tako i vremenske udaljenosti prevoza od tekućeg položaja korisnika. 
