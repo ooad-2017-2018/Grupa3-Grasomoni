@@ -4,6 +4,7 @@
 2.	Divjan Belmin 
 3.	Ćorović Dalila
 
+![logo](https://user-images.githubusercontent.com/37112792/37866324-837fa0fa-2f89-11e8-9c6c-929fa67b3118.jpg)
 
 
 ## Opis teme
