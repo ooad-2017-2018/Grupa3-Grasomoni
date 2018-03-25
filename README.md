@@ -18,7 +18,7 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 - [x] Pregled prihoda I potrošnje
 - [x] Popust na učestale korisnike, studente, penzionere, djecu i na rodbinu kreatora sistema (i na članove SDA)
 - [x] Kvalitetniji sistem je direktno proporcionalan povećanju broja korisnika
-- [x] Mjesečna karta je zamijenjena potrošačkom na kojoj korisnik uplaćuje novac, s tim da korisnik nije primoran da potroši sav novac u nekom vremenskom intervalu (kao što je slučaj sa istekom regularne mjesečne karte)
+- [x] Mjesečna karta je zamijenjena potrošačkom na kojoj korisnik uplaćuje novac, s tim da korisnik nije primoran da potroši sav novac u nekom vremenskom intervalu (kao što je slučaj sa istekom regularne mjesečne karte, a da korisnik nije iskoristio njen "puni" vrijednost)
 
 ## Procesi 
 -	_Proces registracije korisnika:_ prilikom pokretanja sistema korisnik unosi lične podatke. Lični podaci podrazumijevaju: ime, prezime, korisničko ime, JMBG i lozinka.
