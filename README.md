@@ -22,7 +22,7 @@ Ovaj sistem pruža mnogobrojna poboljšanja trenutačnom gradskom prevozu, jedna
 
 ## Procesi 
 -	_Proces registracije korisnika:_ prilikom pokretanja sistema korisnik unosi lične podatke. Lični podaci podrazumijevaju: ime, prezime, korisničko ime, JMBG i lozinka.
--	_Prijava:_ Registrovani korisnik pošto naredni put pristupi interfejsu za prijavu, unosi svoje ime, prezime i lozinku
+-	_Prijava:_ nakon registracije, za pristupanje interfejsu, korisnik koristi jedinstveno korisničko ime i lozinku
 -	_Unos trenutne lokacije korisnika I željene stanice do koje korisnik želi doći, te odabir prevoznog sredstva_
 -	_Proračun karte:_ na osnovu udaljenosti između početne I krajnje lokacije, vrši se izračunavanje cijene karte 
 -	Nakon procjene karte, korisnik bira da li će potvrditi naplatu ili ne
