@@ -13,19 +13,19 @@
         </Grid.Background>
         <Border BorderBrush="Black" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="340" Margin="10,10,0,0" Background="#FF333337"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="68" Margin="10,10,0,0" VerticalAlignment="Top" Width="66" Source="Assets/Logo.jpg"/>
-        <Button x:Name="button1" Content="REGISTRUJ SE" HorizontalAlignment="Stretch" Margin="196,576,10,0" VerticalAlignment="Top" Height="54" FontFamily="Century Gothic" Click="button1_Click">
+        <Button x:Name="registrujButton" Content="REGISTRUJ SE" HorizontalAlignment="Stretch" Margin="196,576,10,0" VerticalAlignment="Top" Height="54" FontFamily="Century Gothic" Click="button1_Click">
             <Button.Background>
                 <AcrylicBrush TintColor="#FF007ACC"/>
             </Button.Background>
         </Button>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="116" Margin="169,100,0,0" VerticalAlignment="Top" Width="168" Source="Assets/FIN REMAKE.png" RenderTransformOrigin="1.291,0.52"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="10,263,0,0" Text="Ime" VerticalAlignment="Top" Height="28" Width="164" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="179,263,0,0" Text="Prezime" VerticalAlignment="Top" Height="28" Width="171" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="10,300,0,0" Text="JMBG" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Margin="10,337,0,0" Text="Korisničko ime" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="10,374,0,0" Text="e-mail" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Margin="10,411,0,0" Text="Lozinka" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="textBox_Copy5" HorizontalAlignment="Left" Margin="10,448,0,0" Text="Ponovi lozinku" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="imeText" HorizontalAlignment="Left" Margin="10,263,0,0" Text="Ime" VerticalAlignment="Top" Height="28" Width="164" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="prezimeText" HorizontalAlignment="Left" Margin="179,263,0,0" Text="Prezime" VerticalAlignment="Top" Height="28" Width="171" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="jmbgText" HorizontalAlignment="Left" Margin="10,300,0,0" Text="JMBG" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="korisnickoText" HorizontalAlignment="Left" Margin="10,337,0,0" Text="Korisničko ime" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="emailText" HorizontalAlignment="Left" Margin="10,374,0,0" Text="e-mail" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="lozinkaText" HorizontalAlignment="Left" Margin="10,411,0,0" Text="Lozinka" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
+        <TextBox x:Name="ponoviText" HorizontalAlignment="Left" Margin="10,448,0,0" Text="Ponovi lozinku" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
 
     </Grid>
 </Page>
