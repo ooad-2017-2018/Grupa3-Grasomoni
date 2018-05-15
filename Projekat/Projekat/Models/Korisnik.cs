@@ -6,29 +6,23 @@ using System.Threading.Tasks;
 
 namespace Projekat.Models
 {
-    public class Korisnik
+    public abstract class Korisnik
     {
         string ime;
         string prezime;
-        string korisnickoIme;
-        string email;
-        string lozinka;
+        long jmbg;
 
         public Korisnik() { }
 
-        public Korisnik(string ime, string prezime, string korisnickoIme, string email, string lozinka)
+        public Korisnik(string ime, string prezime, long jmbg)
         {
             this.Ime = ime;
             this.Prezime = prezime;
-            this.KorisnickoIme = korisnickoIme;
-            this.Email = email;
-            this.Lozinka = lozinka;
+            this.Jmbg = jmbg;
         }
 
         public string Ime { get => ime; set => ime = value; }
         public string Prezime { get => prezime; set => prezime = value; }
-        public string KorisnickoIme { get => korisnickoIme; set => korisnickoIme = value; }
-        public string Email { get => email; set => email = value; }
-        public string Lozinka { get => lozinka; set => lozinka = value; }
+        public long Jmbg { get => jmbg; set => jmbg = value; }
     }
 }

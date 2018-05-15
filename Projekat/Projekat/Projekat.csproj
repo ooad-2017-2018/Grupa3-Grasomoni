@@ -92,23 +92,30 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MeniGost.xaml.cs">
       <DependentUpon>MeniGost.xaml</DependentUpon>
     </Compile>
     <Compile Include="MeniRegistrovani.xaml.cs">
       <DependentUpon>MeniRegistrovani.xaml</DependentUpon>
     </Compile>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Models\Administrator.cs" />
+    <Compile Include="Models\SarajevoPrevoz.cs" />
+    <Compile Include="Models\Kartica.cs" />
     <Compile Include="Models\Korisnik.cs" />
-    <Compile Include="RegistracijaKorisnika.xaml.cs">
-      <DependentUpon>RegistracijaKorisnika.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Models\Radnik.cs" />
+    <Compile Include="Models\RegistrovaniKorisnik.cs" />
+    <Compile Include="Models\Stanica.cs" />
+    <Compile Include="Models\Vozilo.cs" />
     <Compile Include="Prijava.xaml.cs">
       <DependentUpon>Prijava.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistracijaKorisnika.xaml.cs">
+      <DependentUpon>RegistracijaKorisnika.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -135,18 +142,18 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MeniGost.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MeniRegistrovani.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RegistracijaKorisnika.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Prijava.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RegistracijaKorisnika.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

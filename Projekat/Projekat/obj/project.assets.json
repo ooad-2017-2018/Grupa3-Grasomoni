@@ -25734,11 +25734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DT User\\Desktop\\gitDRUGI\\Projekat\\Projekat\\Projekat.csproj",
+      "projectUniqueName": "C:\\Users\\DT User\\Desktop\\gitTRECI\\Projekat\\Projekat\\Projekat.csproj",
       "projectName": "Projekat",
-      "projectPath": "C:\\Users\\DT User\\Desktop\\gitDRUGI\\Projekat\\Projekat\\Projekat.csproj",
+      "projectPath": "C:\\Users\\DT User\\Desktop\\gitTRECI\\Projekat\\Projekat\\Projekat.csproj",
       "packagesPath": "C:\\Users\\DT User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DT User\\Desktop\\gitDRUGI\\Projekat\\Projekat\\obj\\",
+      "outputPath": "C:\\Users\\DT User\\Desktop\\gitTRECI\\Projekat\\Projekat\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

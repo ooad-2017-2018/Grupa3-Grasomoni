@@ -51,3 +51,4 @@ C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\Administrator.
 C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\RegistracijaKorisnika.xbf
 C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\Prijava.xbf
 C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\XamlSaveStateFile.xml
+C:\Users\DT User\Desktop\gitTRECI\Projekat\Projekat\obj\ARM\Debug\Projekat.csprojResolveAssemblyReference.cache

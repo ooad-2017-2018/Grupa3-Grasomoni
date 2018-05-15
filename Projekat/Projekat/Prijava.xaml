@@ -31,7 +31,7 @@
             </Grid.BorderBrush>
             <Button x:Name="prijavaButton" Content="PRIJAVA" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="118" Margin="216,156,0,0" RenderTransformOrigin="0.653,1.094" FontFamily="Century Gothic" FocusVisualSecondaryBrush="#99151414" FocusVisualPrimaryBrush="#FF575656" Background="#FFAEA4A4"/>
             <TextBox x:Name="lozinkaText" HorizontalAlignment="Left" Margin="170,95,0,0" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.214,-0.031" Width="166" FontSize="20" Background="White" BorderBrush="#66000000"/>
-            <TextBox x:Name="korisnickoText" HorizontalAlignment="Left" Margin="169,31,0,0" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.214,-0.031" Width="166" FontSize="20" BorderBrush="#66060606" Background="White"/>
+            <TextBox x:Name="korisnickoText" HorizontalAlignment="Left" Margin="169,31,0,0" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.214,-0.031" Width="166" FontSize="20" BorderBrush="#66060606" Background="White" TextChanged="korisnickoText_TextChanged"/>
             <TextBlock HorizontalAlignment="Left" Margin="11,38,0,0" Text="Korisničko ime:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FocusVisualPrimaryBrush="#FF684C4C" FontWeight="Bold" FontStyle="Normal" RenderTransformOrigin="0.493,0.704" FontFamily="Century Gothic"/>
             <TextBlock HorizontalAlignment="Left" Margin="82,102,0,0" Text="Lozinka:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" FontFamily="Century Gothic"/>
         </Grid>
