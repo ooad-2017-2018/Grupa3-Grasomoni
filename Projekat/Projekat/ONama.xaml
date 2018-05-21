@@ -1,0 +1,18 @@
+﻿<UserControl
+    x:Class="Projekat.ONama"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Projekat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/1.png"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Projekat na temu Sarajevo eprevoz net baziran je na praćenju gradskog prevoza putem GPS-a. Svrha sistema je omogućiti korisniku uvid u kretanje izvjesnih prevoznih sredstava. S tim u vezi, moguće je locirati poziciju po volji odabranog transportnog sistema, te procjenu kako prostorne tako i vremenske udaljenosti prevoza od tekućeg položaja korisnika. Korisniku ovog sistema pruža se mogućnost unosa svoje lokacije, ličnih podataka i stanice do koje želi da ide. Na taj način na osnovu broja pređenih stanica vršio bi se proračun karte koju je korisnik dužan isplatiti. " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="18" Foreground="DimGray"/>
+    </Grid>
+</UserControl>

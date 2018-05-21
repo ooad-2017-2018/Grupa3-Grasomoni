@@ -12,7 +12,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16299.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -95,6 +95,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cijene.xaml.cs">
+      <DependentUpon>Cijene.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lokacije.xaml.cs">
+      <DependentUpon>Lokacije.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MeniGost.xaml.cs">
       <DependentUpon>MeniGost.xaml</DependentUpon>
     </Compile>
@@ -106,15 +112,23 @@
     <Compile Include="Models\Kartica.cs" />
     <Compile Include="Models\Korisnik.cs" />
     <Compile Include="Models\Radnik.cs" />
-    <Compile Include="Models\RegistrovaniKorisnik.cs" />
     <Compile Include="Models\Stanica.cs" />
     <Compile Include="Models\Vozilo.cs" />
+    <Compile Include="ONama.xaml.cs">
+      <DependentUpon>ONama.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PotvrdaVoznje.xaml.cs">
+      <DependentUpon>PotvrdaVoznje.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Prijava.xaml.cs">
       <DependentUpon>Prijava.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistracijaKorisnika.xaml.cs">
       <DependentUpon>RegistracijaKorisnika.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vozila.xaml.cs">
+      <DependentUpon>Vozila.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -125,8 +139,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\1.png" />
+    <Content Include="Assets\Autobus.png" />
     <Content Include="Assets\FIN REMAKE.png" />
+    <Content Include="Assets\karta.png" />
     <Content Include="Assets\Logo.jpg" />
+    <Content Include="Assets\Tramvaj.png" />
+    <Content Include="Assets\Trolejbus.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -141,6 +159,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Cijene.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lokacije.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MeniGost.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -148,6 +174,14 @@
     <Page Include="MeniRegistrovani.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ONama.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PotvrdaVoznje.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Prijava.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -157,10 +191,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Vozila.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Mobile.Client">
+      <Version>4.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="WinUX.Common">
+      <Version>2.4.17005.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

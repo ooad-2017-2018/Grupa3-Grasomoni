@@ -11,12 +11,16 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/1.png"/>
         </Grid.Background>
-        <Border BorderBrush="Black" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="340" Margin="10,10,0,0" Background="#FF333337">
-            <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="66" Source="Assets/Logo.jpg"/>
+        <Border BorderBrush="Black" Height="71" VerticalAlignment="Top" Margin="0,10,0,0" Background="#FF333337">
+            <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="49" Source="Assets/Logo.jpg" Margin="0,8,0,0" Tapped="slika_Tapped" DoubleTapped="image_doubleTapped"/>
         </Border>
-        <Button x:Name="cijeneButton" Content="CIJENE" HorizontalAlignment="Left" Margin="84,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
-        <Button x:Name="lokacijeButton" Content="LOKACIJE" HorizontalAlignment="Left" Margin="160,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
-        <Button x:Name="vozilaButton" Content="VOZILA" HorizontalAlignment="Left" Margin="257,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
+        <Button x:Name="cijeneButton" Content="CIJENE" HorizontalAlignment="Left" Margin="51,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="cijene_Tapped"/>
+        <Button x:Name="lokacijeButton" Content="LOKACIJE" HorizontalAlignment="Left" Margin="125,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="lokacije_Tapped"/>
+        <Button x:Name="vozilaButton" Content="VOZILA" HorizontalAlignment="Left" Margin="218,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="vozila_Tapped"/>
+        <local:Cijene x:Name="cijeneKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360" Visibility="Collapsed"/>
+        <local:ONama x:Name="oNamaKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360"/>
+        <local:Lokacije x:Name ="lokacijeKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360" Visibility="Collapsed"/>
+        <local:Vozila x:Name="vozilaKontrola" HorizontalAlignment="Center"  Margin="0,200,0,0" VerticalAlignment="Top" Width="600" Visibility="Collapsed"/>
 
     </Grid>
 </Page>

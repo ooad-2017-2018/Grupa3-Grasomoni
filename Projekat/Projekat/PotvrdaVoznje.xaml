@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="Projekat.PotvrdaVoznje"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Projekat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/1.png"/>
+            </Grid.Background>
+            <Border BorderBrush="Black" Height="71" VerticalAlignment="Top" Margin="0,10,0,0" Background="#FF333337" Visibility="Visible">
+                <Image x:Name="image" HorizontalAlignment="Center" Height="68" VerticalAlignment="Top" Width="49" Source="Assets/Logo.jpg" Margin="0,5,0,0" RenderTransformOrigin="3.863,0.506"/>
+            </Border>
+            <RelativePanel x:Name="podaciRP" HorizontalAlignment="Center" Height="292" Margin="0,338,0,0" VerticalAlignment="Top" Width="340" Visibility="Collapsed">
+                <Image x:Name="image1" HorizontalAlignment="Left" Height="290" Margin="0,0,0,0" VerticalAlignment="Top" Width="218" Source="Assets/karta.png" RenderTransformOrigin="1.291,0.52"/>
+                <Button Content="Pogledaj kartu" HorizontalAlignment="Right" Height="30" Margin="0,93,-340,0" VerticalAlignment="Top" Width="115" Click="Button_Click" Background="CadetBlue" FontFamily="Centuy Gothic" FontWeight="Normal"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,162,0,0" Text="Proračunata cijena karte za odabrane lokacije je: " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Foreground="Gray"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,212,0,0" Text="Predviđeni dolazak vozila za: " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Foreground ="Gray"/>
+                <Button x:Name="odbijButton" Content="Odbij" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Background="IndianRed" Width="115" Height="30" Tapped="odbijButton_Tapped"/>
+                <Button Content="Prihvati" HorizontalAlignment="Right" Margin="0,250,-340,0" VerticalAlignment="Top" Background="CadetBlue" Width="115" Height="30"/>
+                <TextBlock x:Name="proracunataCijenaText" HorizontalAlignment="Left" Margin="147,186,0,0" Text="1 KM" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.693,-0.825"/>
+                <TextBlock x:Name="predvidjeniDolazakTekst" HorizontalAlignment="Left" Margin="269,212,0,0" Text="5 min" TextWrapping="Wrap" VerticalAlignment="Top" FontStyle="Italic" FontWeight="Bold" FontSize="16"/>
+            </RelativePanel>
+            <RelativePanel HorizontalAlignment="Center" Height="188" Margin="0,95,0,0" VerticalAlignment="Top" Width="340">
+                <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" Text="Odaberite željeno prevozno sredstvo: " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="18" Foreground="Gray"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,88,0,0" Text="Odaberite početnu stanicu: " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Foreground="Gray"/>
+                <TextBlock HorizontalAlignment="Left" Margin="0,121,0,0" Text="Odaberite krajnju stanicu: " TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" Foreground="Gray"/>
+                <RadioButton Content="Autobus" HorizontalAlignment="Center" Height="40" Margin="0,35,0,0" VerticalAlignment="Top" Width="95"/>
+                <RadioButton Content="Tramvaj" HorizontalAlignment="Left" Height="40" Margin="220,35,0,0" VerticalAlignment="Top" Width="110"/>
+                <RadioButton Content="Trolejbus" HorizontalAlignment="Left" Height="40" Margin="110,35,0,0" VerticalAlignment="Top" Width="93"/>
+                <Button x:Name="nastaviButton" Content="Nastavi" HorizontalAlignment="Right" Margin="0,158,-340,0" VerticalAlignment="Stretch" Width="115" FontFamily="Century Gothic" Background="CadetBlue" Click="Button_Click" Tapped="nastaviButton_Tapped"/>
+                <ComboBox x:Name="pocetnaCB" HorizontalAlignment="Left" Height="28" Margin="201,79,0,0" VerticalAlignment="Top" Width="139">
+                    <ComboBoxItem Content="Ilidža"/>
+                    <ComboBoxItem Content="Energoinvest"/>
+                    <ComboBoxItem Content="Stup"/>
+                    <ComboBoxItem Content="Avaz"/>
+                    <ComboBoxItem Content="Nedžarići"/>
+                    <ComboBoxItem Content="Alipašino Polje"/>
+                    <ComboBoxItem Content="RTV"/>
+                    <ComboBoxItem Content="Alipašin Most"/>
+                    <ComboBoxItem Content="Otoka"/>
+                    <ComboBoxItem Content="Čengić Vila"/>
+                    <ComboBoxItem Content="Malta"/>
+                    <ComboBoxItem Content="Socijalno"/>
+                    <ComboBoxItem Content="Pofalići"/>
+                    <ComboBoxItem Content="Univerzitet"/>
+                    <ComboBoxItem Content="Muzej"/>
+                    <ComboBoxItem Content="Marijin Dvor"/>
+                    <ComboBoxItem Content="Skenderija"/>
+                    <ComboBoxItem Content="Drvenija"/>
+                    <ComboBoxItem Content="Latinska Ćuprija"/>
+                    <ComboBoxItem Content="Vijećnica"/>
+                    <ComboBoxItem Content="Baščaršija"/>
+                </ComboBox>
+                <ComboBox x:Name="krajnjaCB" HorizontalAlignment="Left" Height="28" Margin="201,112,0,0" VerticalAlignment="Top" Width="139">
+                    <ComboBoxItem Content="Ilidža"/>
+                    <ComboBoxItem Content="Energoinvest"/>
+                    <ComboBoxItem Content="Stup"/>
+                    <ComboBoxItem Content="Avaz"/>
+                    <ComboBoxItem Content="Nedžarići"/>
+                    <ComboBoxItem Content="Alipašino Polje"/>
+                    <ComboBoxItem Content="RTV"/>
+                    <ComboBoxItem Content="Alipašin Most"/>
+                    <ComboBoxItem Content="Otoka"/>
+                    <ComboBoxItem Content="Čengić Vila"/>
+                    <ComboBoxItem Content="Malta"/>
+                    <ComboBoxItem Content="Socijalno"/>
+                    <ComboBoxItem Content="Pofalići"/>
+                    <ComboBoxItem Content="Univerzitet"/>
+                    <ComboBoxItem Content="Muzej"/>
+                    <ComboBoxItem Content="Marijin Dvor"/>
+                    <ComboBoxItem Content="Skenderija"/>
+                    <ComboBoxItem Content="Drvenija"/>
+                    <ComboBoxItem Content="Latinska Ćuprija"/>
+                    <ComboBoxItem Content="Vijećnica"/>
+                    <ComboBoxItem Content="Baščaršija"/>
+                </ComboBox>
+
+            </RelativePanel>
+
+        </Grid>
+    </Grid>
+</Page>

@@ -52,3 +52,23 @@ C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\RegistracijaKo
 C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\Prijava.xbf
 C:\Users\DT User\Desktop\gitDRUGI\Projekat\Projekat\obj\ARM\Debug\XamlSaveStateFile.xml
 C:\Users\DT User\Desktop\gitTRECI\Projekat\Projekat\obj\ARM\Debug\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\App.g.i.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\App.g.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniGost.g.i.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniGost.g.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniRegistrovani.g.i.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniRegistrovani.g.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\Prijava.g.i.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\Prijava.g.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\RegistracijaKorisnika.g.i.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\RegistracijaKorisnika.g.cs
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\App.xaml
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniGost.xaml
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniRegistrovani.xaml
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\Prijava.xaml
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\RegistracijaKorisnika.xaml
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\App.xbf
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniGost.xbf
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\MeniRegistrovani.xbf
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\Prijava.xbf
+C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\obj\ARM\Debug\RegistracijaKorisnika.xbf

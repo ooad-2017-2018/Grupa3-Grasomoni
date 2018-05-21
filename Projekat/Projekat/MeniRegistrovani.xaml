@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Projekat.Administrator"
+    x:Class="Projekat.MeniRegistrovani"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Projekat"
@@ -11,21 +11,34 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/1.png"/>
         </Grid.Background>
-        <Border BorderBrush="Black" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="340" Margin="10,10,0,0" Background="#FF333337">
-            <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="66" Source="Assets/Logo.jpg"/>
+        <Border BorderBrush="Black" Height="71" VerticalAlignment="Top" Margin="0,10,0,0" Background="#FF333337">
+            <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="49" Source="Assets/Logo.jpg" Margin="0,8,0,0" Tapped="slika_Tapped" DoubleTapped="image_doubleTapped"/>
         </Border>
-        <Button x:Name="cijeneButton" Content="CIJENE" HorizontalAlignment="Left" Margin="84,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
-        <Button x:Name="lokacijeButton" Content="LOKACIJE" HorizontalAlignment="Left" Margin="160,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
-        <Button x:Name="vozilaButton" Content="VOZILA" HorizontalAlignment="Left" Margin="257,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"/>
-        <TextBlock HorizontalAlignment="Left" Margin="18,123,0,0" Text="Odaberite željeno prevozno sredstvo:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontStyle="Italic" FontSize="18" FontWeight="Bold"/>
-        <RadioButton Content="Autobus" HorizontalAlignment="Left" Margin="82,170,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontStyle="Italic" FontStretch="Normal" FontWeight="Normal" FontSize="20" Width="99"/>
-        <RadioButton Content="Tramvaj" HorizontalAlignment="Left" Margin="82,221,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontStyle="Italic" FontStretch="Normal" FontWeight="Normal" FontSize="20" Width="95"/>
-        <RadioButton Content="Trolejbus" HorizontalAlignment="Left" Margin="83,274,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontStyle="Italic" FontStretch="Normal" FontWeight="Normal" FontSize="20" Width="99"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,350,0,0" Text="Početna stanica:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontWeight="Bold" FontSize="22"/>
-        <TextBlock HorizontalAlignment="Left" Margin="19,454,0,0" Text="Krajnja stanica:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20"/>
-        <ListBox HorizontalAlignment="Left" Height="39" Margin="19,491,0,0" VerticalAlignment="Top" Width="250"/>
-        <ListBox HorizontalAlignment="Left" Height="39" Margin="19,390,0,0" VerticalAlignment="Top" Width="250"/>
-        <Button x:Name="daljeButton" Content="NASTAVI" HorizontalAlignment="Left" Margin="172,560,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FF6A70E4" Background="#FF4EC1F7" FontWeight="Bold" FontFamily="Century Gothic" FontSize="18" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" Height="50" Width="152" Click="Button_Click"/>
+        <Button x:Name="cijeneButton" Content="CIJENE" HorizontalAlignment="Left" Margin="51,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="cijene_Tapped"/>
+        <Button x:Name="lokacijeButton" Content="LOKACIJE" HorizontalAlignment="Left" Margin="125,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="lokacije_Tapped"/>
+        <Button x:Name="vozilaButton" Content="VOZILA" HorizontalAlignment="Left" Margin="218,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="vozila_Tapped"/>
+        <local:Cijene x:Name="cijeneKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360" Visibility="Collapsed"/>
+        <local:ONama x:Name="oNamaKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360" Visibility="Visible"/>
+        <local:Lokacije x:Name ="lokacijeKontrola" HorizontalAlignment="Center" Height="559" Margin="0,200,0,0" VerticalAlignment="Top" Width="360" Visibility="Collapsed"/>
+        <local:Vozila x:Name="vozilaKontrola" HorizontalAlignment="Center"  Margin="0,200,0,0" VerticalAlignment="Top" Width="600" Visibility="Collapsed"/>
+        <Button x:Name="profilButton" Content="PROFIL" HorizontalAlignment="Right" Height="37" Margin="0,26,10,0" VerticalAlignment="Top" Width="93" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="profilButton_Tapped"/>
+        <Button x:Name="voznjaButton" HorizontalAlignment="Right" Content="VOŽNJA"  Height="37" Margin="0,26,110,0" VerticalAlignment="Top" Width="93" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065" Tapped="voznjaButton_Tapped" Click="voznjaButton_Click">
+        </Button>
+        <RelativePanel x:Name="profilPanel" HorizontalAlignment="Center" Height="554" Margin="0,86,0,0" VerticalAlignment="Top" Width="360" Visibility="Collapsed">
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,140,0,0" Text="Ime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,180,0,0" Text="Prezime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,220,0,0" Text="Jmbg: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,260,0,0" Text="E-mail: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,300,0,0" Text="Korisnicko ime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="10,340,0,0" Text="Lozinka: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" Foreground="Gray"/>
+            <TextBlock x:Name="pimeText" HorizontalAlignment="Left" Height="30" Margin="160,140,0,0" Text="Ime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <TextBlock x:Name="pprezimeText" HorizontalAlignment="Left" Height="30" Margin="160,180,0,0" Text="Prezime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <TextBlock x:Name="pjmbgText" HorizontalAlignment="Left" Height="30" Margin="160,220,0,0" Text="Jmbg: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <TextBlock x:Name="pemailText" HorizontalAlignment="Left" Height="30" Margin="160,260,0,0" Text="E-mail: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <TextBlock x:Name="pkorisnickoText" HorizontalAlignment="Left" Height="30" Margin="160,300,0,0" Text="Korisnicko ime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <TextBlock x:Name="plozinkaText" HorizontalAlignment="Left" Height="30" Margin="160,340,0,0" Text="Lozinka: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
+            <Button x:Name="buttonUredi" Content="Uredi" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="135" Margin="109,380,0,0" Background="CadetBlue" FontFamily="Century Gothic" FontSize="20"/>
 
+        </RelativePanel>
     </Grid>
 </Page>

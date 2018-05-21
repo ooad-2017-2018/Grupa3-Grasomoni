@@ -11,21 +11,17 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/1.png"/>
         </Grid.Background>
-        <Border BorderBrush="Black" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="340" Margin="10,10,0,0" Background="#FF333337"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="68" Margin="10,10,0,0" VerticalAlignment="Top" Width="66" Source="Assets/Logo.jpg"/>
-        <Button x:Name="registrujButton" Content="REGISTRUJ SE" HorizontalAlignment="Stretch" Margin="196,576,10,0" VerticalAlignment="Top" Height="54" FontFamily="Century Gothic" Click="button1_Click">
-            <Button.Background>
-                <AcrylicBrush TintColor="#FF007ACC"/>
-            </Button.Background>
-        </Button>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="116" Margin="169,100,0,0" VerticalAlignment="Top" Width="168" Source="Assets/FIN REMAKE.png" RenderTransformOrigin="1.291,0.52"/>
-        <TextBox x:Name="imeText" HorizontalAlignment="Left" Margin="10,263,0,0" Text="Ime" VerticalAlignment="Top" Height="28" Width="164" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="prezimeText" HorizontalAlignment="Left" Margin="179,263,0,0" Text="Prezime" VerticalAlignment="Top" Height="28" Width="171" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="jmbgText" HorizontalAlignment="Left" Margin="10,300,0,0" Text="JMBG" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="korisnickoText" HorizontalAlignment="Left" Margin="10,337,0,0" Text="Korisničko ime" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="emailText" HorizontalAlignment="Left" Margin="10,374,0,0" Text="e-mail" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="lozinkaText" HorizontalAlignment="Left" Margin="10,411,0,0" Text="Lozinka" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-        <TextBox x:Name="ponoviText" HorizontalAlignment="Left" Margin="10,448,0,0" Text="Ponovi lozinku" VerticalAlignment="Top" Height="31" Width="340" TextChanged="textBox_TextChanged_1" FontFamily="Century Gothic"/>
-
+        <Button x:Name="btnSpasi" Content="Registruj se" Tapped="btnSpasi_Tapped" Background="CadetBlue" FontFamily="Century Gothic"
+Margin="0,555,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="141" />
+        <Button x:Name="btnNazad" Content="Nazad" Tapped="btnNazad_Tapped" Background="CadetBlue" FontFamily="Century Gothic"
+Margin="10,555,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" />
+        <Image x:Name="image1" HorizontalAlignment="Right" Height="116" Margin="169,100,0,0" VerticalAlignment="Top" Width="168" Source="Assets/FIN REMAKE.png" RenderTransformOrigin="1.291,0.52"/>
+        <TextBox x:Name="imeText" Margin="14,288,10,0" Text="" VerticalAlignment="Top" Height="28" TextChanged="ImeText_textChanged" FontFamily="Century Gothic" PlaceholderText="Ime" HorizontalAlignment="Stretch"/>
+        <TextBox x:Name="prezimeText" Margin="14,326,10,0" Text="" VerticalAlignment="Top" Height="28" TextChanged="PrezimeText_textChanged" FontFamily="Century Gothic" PlaceholderText="Prezime" HorizontalAlignment="Stretch"/>
+        <TextBox x:Name="jmbgText" Margin="14,363,10,0" Text="" VerticalAlignment="Top" Height="28" TextChanged="JmbgText_textChanged" FontFamily="Century Gothic" PlaceholderText="JMBG" HorizontalAlignment="Stretch" />
+        <TextBox x:Name="korisnickoText" Margin="14,400,10,0" Text="" VerticalAlignment="Top" Height="28" TextChanged="KorisnickoText_textChanged" FontFamily="Century Gothic" PlaceholderText="Korisničko ime" HorizontalAlignment="Stretch"/>
+        <TextBox x:Name="emailText" Margin="14,437,10,0" Text="" VerticalAlignment="Top" Height="28" TextChanged="EmailText_textCHanged" FontFamily="Century Gothic" PlaceholderText="e-mail" HorizontalAlignment="Stretch"/>
+        <PasswordBox x:Name="lozinkaPassBox" Margin="14,474,10,0" VerticalAlignment="Top" PlaceholderText="Lozinka" HorizontalAlignment="Stretch" PasswordChanged="PasswordBox_PasswordChanged"/>
+        <PasswordBox x:Name="plozinkaPassBox" Margin="14,511,10,0" VerticalAlignment="Top" PlaceholderText="Potvrdi lozinku" HorizontalAlignment="Stretch" PasswordChanged="plozinkaPassBox_PasswordChanged"/>
     </Grid>
 </Page>
