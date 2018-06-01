@@ -1,0 +1,2 @@
+C:\Users\DT User\Desktop\GITProjekat\ASPProjekat\ASPProjekat\obj\Debug\ASPProjekat.csprojResolveAssemblyReference.cache
+C:\Users\DT User\Desktop\GITProjekat\ASPProjekat\ASPProjekat\obj\Debug\ASPProjekat.csproj.CoreCompileInputs.cache
