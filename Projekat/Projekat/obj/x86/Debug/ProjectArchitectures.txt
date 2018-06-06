@@ -1,1 +1,1 @@
-C:\Users\hp\Desktop\Projekat1\Projekat\Projekat\Projekat.csproj;x86
+C:\Users\DT User\Desktop\gittt\Projekat\Projekat\Projekat.csproj;x86

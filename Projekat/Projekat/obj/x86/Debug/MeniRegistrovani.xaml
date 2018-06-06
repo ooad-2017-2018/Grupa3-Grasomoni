@@ -12,7 +12,7 @@
             <ImageBrush ImageSource="Assets/1.png"/>
         </Grid.Background>
         <Border BorderBrush="Black" Height="71" VerticalAlignment="Top" Margin="0,10,0,0" Background="#FF333337">
-            <Image x:ConnectionId='17' x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="49" Source="Assets/Logo.jpg" Margin="0,8,0,0"                                                        />
+            <Image x:ConnectionId='18' x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="49" Source="Assets/Logo.jpg" Margin="0,8,0,0"                                                        />
         </Border>
         <Button x:ConnectionId='1' x:Name="cijeneButton" Content="CIJENE" HorizontalAlignment="Left" Margin="51,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"                       />
         <Button x:ConnectionId='2' x:Name="lokacijeButton" Content="LOKACIJE" HorizontalAlignment="Left" Margin="125,30,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFD6D5D5" Background="#FF333337" Foreground="#FFF5F1F1" FontFamily="Century Gothic" FontWeight="Bold" RenderTransformOrigin="0.895,-0.065"                         />
@@ -37,7 +37,7 @@
             <TextBlock x:ConnectionId='14' x:Name="pemailText" HorizontalAlignment="Left" Height="30" Margin="160,260,0,0" Text="E-mail: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
             <TextBlock x:ConnectionId='15' x:Name="pkorisnickoText" HorizontalAlignment="Left" Height="30" Margin="160,300,0,0" Text="Korisnicko ime: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
             <TextBlock x:ConnectionId='16' x:Name="plozinkaText" HorizontalAlignment="Left" Height="30" Margin="160,340,0,0" Text="Lozinka: " TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontSize="18" FontFamily="Century Gothic" FontStyle="Italic"/>
-            <Button Content="Uredi" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="135" Margin="109,380,0,0" Background="CadetBlue" FontFamily="Century Gothic" FontSize="20"/>
+            <Button x:ConnectionId='17' x:Name="buttonUredi" Content="Uredi" HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="135" Margin="109,380,0,0" Background="CadetBlue" FontFamily="Century Gothic" FontSize="20"/>
 
         </RelativePanel>
     </Grid>

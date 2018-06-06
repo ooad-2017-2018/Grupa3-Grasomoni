@@ -22,6 +22,8 @@ namespace Projekat
     /// </summary>
     public sealed partial class PotvrdaVoznje : Page
     {
+        double tarfia1 = 0.1;
+        double tarifa2 = 0.2;
         public PotvrdaVoznje()
         {
             this.InitializeComponent();
@@ -32,10 +34,16 @@ namespace Projekat
 
         }
 
-
         private void nastaviButton_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            proracunataCijenaText.Text = (Math.Abs(pocetnaCB.SelectedIndex - krajnjaCB.SelectedIndex) * 0.1 + 0.2).ToString() + " KM";
+            try
+            {
+                proracunataCijenaText.Text = (Math.Abs(pocetnaCB.SelectedIndex - krajnjaCB.SelectedIndex) * tarfia1 + tarifa2).ToString() + " KM";
+
+            } catch(Exception)
+            {
+
+            }
             podaciRP.Visibility = Visibility.Visible;
         }
 
